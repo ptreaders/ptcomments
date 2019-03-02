@@ -7409,7 +7409,8 @@ jQuery(function($)
       }
       catch(err)
       {
-        showBottomTip("<b>初始化评论界面出错&#65281;</b>", 0);
+        //showBottomTip("<b>初始化评论界面出错&#65281;</b>", 0);
+        showBottomTip("<b>初始化评论界面出错&#65281;请输入postID<input type=\"text\" id=\"inputPostID\"></input><a href=\"\" onclick=\'document.location.search=document.getElementById(\"inputPostID\").value\'>提交</a></b>", 0);
         reportError("init: Catch exception:\n" + err);
       }
     }

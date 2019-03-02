@@ -1,0 +1,6 @@
+用法:
+```
+chmod +x ./update.sh
+./update.sh
+```
+然后打开index.html之后在底部输入框中输入postID
